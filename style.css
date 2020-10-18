@@ -1,0 +1,51 @@
+/*
+Theme Name: WordstrapTheme
+Text Domain: wordstraptheme
+Version: 1.0
+Requires at least: 4.5.2
+Requires PHP: 5.2.4
+Description: A theme built with twitter Bootstrap v.3.3.7 as part of a course on Eduonix.com, courtesy of Brad Traversy of Traversy Media.
+Author: Fionn Ross
+Author URI: https://fionnrossonline.com/
+Theme URI: https://github.com/rossfion/wordstraptheme/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+article.post {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+article.post:last-child {
+	border-bottom: none;
+}
+
+article.post img {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+article.post .meta {
+	background: #f4f4f4;
+	padding: 8px 12px;
+	color: #333;
+}
+
+.comment-list {
+	list-style: none;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.comment-item {
+	overflow: auto;
+}
